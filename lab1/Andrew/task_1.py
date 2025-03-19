@@ -14,7 +14,6 @@ def quicksort(items):
 n, W = map(int, input().split())
 items = [tuple(map(int, input().split())) for i in range(n)]
 
-from utils import quicksort
 
 def find_best(n, W, items):
     items = quicksort(items)  # кастомная сортировка по удельной стоимости 
